@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+    .btn-primary {
+        @apply inline-block px-12 py-2 my-2 text-white transition-all bg-brand;
+    }
+    .btn-primary:hover {
+        @apply bg-black;
+    }
+}
+@tailwind utilities;

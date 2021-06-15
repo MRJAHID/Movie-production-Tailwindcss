@@ -1,0 +1,20 @@
+.header {
+    height: auto;
+}
+
+.header nav {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.vide-cta {
+    height: auto;
+}
+
+@media (min-width: 1024px) {
+    .header {
+        height: 762px;
+    }
+    .vide-cta {
+        height: 582px;
+    }
+}

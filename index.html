@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./dist/css/tailwind.css" />
+        <link rel="stylesheet" href="./dist/css/index.css" />
+        <title>Movie Production</title>
+    </head>
+    <body class="antialiased bg-black">
+        <header class="relative header lg:overflow-hidden">
+            <div class="absolute inset-0 opacity-50 z-negatie lg:opacity-100">
+                <video
+                    src="./dist/video.mp4"
+                    autoplay
+                    muted
+                    loop
+                    class="object-cover w-full h-full"
+                ></video>
+            </div>
+
+            <nav class="z-20 px-3 py-2 md:p-3">
+                <div class="container flex-wrap items-center justify-start block mx-auto md:flex">
+                    <div class="flex items-center justify-between flex-1">
+                        <a href="">
+                            <img src="./dist/images/logo.webp" alt="Logo" />
+                        </a>
+                        <button class="block pr-1 md:hidden" data-menu-toggle>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="#fff"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="feather feather-menu"
+                            >
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                        </button>
+                    </div>
+                    <ul
+                        data-menu
+                        class="flex-wrap items-center justify-start hidden text-white md:flex"
+                    >
+                        <li class="py-2 md:px-6">
+                            <a href="#" class="text-brand">Home</a>
+                        </li>
+                        <li class="py-2 md:px-6">
+                            <a href="#">Stream/Buy</a>
+                        </li>
+                        <li class="py-2 md:px-6">
+                            <a href="#">Catalog</a>
+                        </li>
+                        <li class="py-2 md:px-6">
+                            <a href="#">About Us</a>
+                        </li>
+                        <li class="py-2 md:px-6">
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container p-4 mx-auto lg:mt-56 lg:px-16">
+                <div class="border-white md:pl-8 md:border-l">
+                    <p class="text-base font-light leading-none tracking-wide text-white">
+                        Out Now
+                    </p>
+                    <h1
+                        class="m-0 text-2xl font-bold text-white  md:text-6xl font-barlow md:leading-none"
+                    >
+                        Knights of Wales
+                    </h1>
+                    <p class="w-full text-lg text-white md:max-w-lg md:my-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed incidunt eaque
+                        nihil rem nobis, ea rep exercitationem magnam qui tenetur ab.
+                    </p>
+                    <a href="#" class="btn-primary">Stream/Buy</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="container px-4 mx-auto my-6 lg:px-16">
+            <ul class="flex items-center leading-normal text-white font-alt">
+                <li class="pr-2 text-white text-gray-300">Our latest release</li>
+                <li class="pr-2">|</li>
+                <li class="pr-2"><a href="#" class="text-brand">watch all</a></li>
+            </ul>
+        </div>
+
+        <div class="relative flex items-stretch justify-start px-4 mb-10 overflow-hidden">
+            <a href="#" class="relative flex-shrink-0 block mr-4">
+                <div
+                    class="absolute inset-0 flex-col justify-end hidden p-4 text-white bg-black opacity-75 cursor-pointer  group-hover:flex"
+                >
+                    <div>
+                        <h3 class="mb-2 text-lg">30 Yards</h3>
+                        <p class="leading-normal">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti minus
+                            similique officia. Voluptatibus illum doloribus magnam, est, ex laborum
+                            blanditiis totam maxime placeat temporibus repudiandae fuga iusto porro!
+                            Voluptate, iste?
+                        </p>
+                    </div>
+                </div>
+                <img src="./dist/images/1.jpg" alt="" />
+            </a>
+            <a href="#" class="relative flex-shrink-0 block mr-4">
+                <div
+                    class="absolute inset-0 flex-col justify-end hidden p-4 text-white bg-black opacity-75 cursor-pointer  group-hover:flex"
+                >
+                    <div>
+                        <h3 class="mb-2 text-lg">30 Yards</h3>
+                        <p class="leading-normal">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti minus
+                            similique officia. Voluptatibus illum doloribus magnam, est, ex laborum
+                            blanditiis totam maxime placeat temporibus repudiandae fuga iusto porro!
+                            Voluptate, iste?
+                        </p>
+                    </div>
+                </div>
+                <img src="./dist/images/2.jpg" alt="" />
+            </a>
+            <a href="#" class="relative flex-shrink-0 block mr-4">
+                <div
+                    class="absolute inset-0 flex-col justify-end hidden p-4 text-white bg-black opacity-75 cursor-pointer  group-hover:flex"
+                >
+                    <div>
+                        <h3 class="mb-2 text-lg">30 Yards</h3>
+                        <p class="leading-normal">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti minus
+                            similique officia. Voluptatibus illum doloribus magnam, est, ex laborum
+                            blanditiis totam maxime placeat temporibus repudiandae fuga iusto porro!
+                            Voluptate, iste?
+                        </p>
+                    </div>
+                </div>
+                <img src="./dist/images/3.jpg" alt="" />
+            </a>
+            <a href="#" class="relative flex-shrink-0 block mr-4">
+                <div
+                    class="absolute inset-0 flex-col justify-end hidden p-4 text-white bg-black opacity-75 cursor-pointer  group-hover:flex"
+                >
+                    <div>
+                        <h3 class="mb-2 text-lg">30 Yards</h3>
+                        <p class="leading-normal">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti minus
+                            similique officia. Voluptatibus illum doloribus magnam, est, ex laborum
+                            blanditiis totam maxime placeat temporibus repudiandae fuga iusto porro!
+                            Voluptate, iste?
+                        </p>
+                    </div>
+                </div>
+                <img src="./dist/images/4.jpg" alt="" />
+            </a>
+            <a href="#" class="relative flex-shrink-0 block mr-4">
+                <div
+                    class="absolute inset-0 flex-col justify-end hidden p-4 text-white bg-black opacity-75 cursor-pointer  group-hover:flex"
+                >
+                    <div>
+                        <h3 class="mb-2 text-lg">30 Yards</h3>
+                        <p class="leading-normal">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti minus
+                            similique officia. Voluptatibus illum doloribus magnam, est, ex laborum
+                            blanditiis totam maxime placeat temporibus repudiandae fuga iusto porro!
+                            Voluptate, iste?
+                        </p>
+                    </div>
+                </div>
+                <img src="./dist/images/5.jpg" alt="" />
+            </a>
+            <a href="#" class="relative flex-shrink-0 block mr-4">
+                <div
+                    class="absolute inset-0 flex-col justify-end hidden p-4 text-white bg-black opacity-75 cursor-pointer  group-hover:flex"
+                >
+                    <div>
+                        <h3 class="mb-2 text-lg">30 Yards</h3>
+                        <p class="leading-normal">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti minus
+                            similique officia. Voluptatibus illum doloribus magnam, est, ex laborum
+                            blanditiis totam maxime placeat temporibus repudiandae fuga iusto porro!
+                            Voluptate, iste?
+                        </p>
+                    </div>
+                </div>
+                <img src="./dist/images/6.jpg" alt="" />
+            </a>
+        </div>
+
+        <div class="container px-4 py-8 mx-auto text-center text-white font-alt md:px-0">
+            <div class="mb-4 text-base text-gray-600 md:text-lg">
+                Film <span class="px-">|</span> Tv Shows <span class="px-">|</span> Creative
+                Development
+            </div>
+            <h2 class="mb-4 text-2xl font-bold md:text-5xl font-alt">About GSL Productions</h2>
+            <p class="max-w-md mx-auto opacity-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti eaque tenetur
+                magnam. Modi in tenetur, laboriosam iste est vel? In, eaque recusandae eum enim
+                incidunt aspernatur saepe repellat. Facere.
+            </p>
+
+            <a href="#" class="inline-block my-2 text-brand">More Info +</a>
+        </div>
+
+        <div class="relative flex flex-wrap items-center px-4 py-10 vide-cta md:py-0">
+            <div class="absolute inset-0 w-full h-full z-negatie">
+                <img
+                    src="./dist/images/video-bg-image.jpg"
+                    alt="Video"
+                    class="object-cover w-full h-full max-w-full"
+                />
+            </div>
+
+            <div class="container flex flex-wrap w-full mx-auto text-center text-white">
+                <h3
+                    class="w-full mb-4 text-3xl font-bold leading-tight tracking-wide  md:text-5xl font-barlow"
+                >
+                    Releases Coming Soon
+                </h3>
+
+                <div class="w-full md:mb-16">
+                    <a
+                        href="#"
+                        class="inline-flex items-center justify-center w-auto text-white  hover:opacity-75"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-play-circle"
+                        >
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                        </svg>
+                        <span class="pb-1 ml-2 border-b border-white">Play Video</span>
+                    </a>
+                </div>
+
+                <div class="w-full">
+                    <a
+                        href="#"
+                        class="inline-flex items-center justify-center px-8 py-3 mt-4 text-white bg-transparent border rounded  hover:bg-white hover:text-black md:mt-0"
+                        >All Video +</a
+                    >
+                </div>
+            </div>
+        </div>
+
+        <footer class="container px-4 py-6 mx-auto text-white md:px-16">
+            <div class="mb-6 border-white md:border-l md:pl-3">
+                <p class="opacity-75">GSL Newsletter</p>
+                <h3 class="mb-4 text-3xl font-bold md:text-6xl font-barlow">See it First</h3>
+
+                <form action="#">
+                    <div class="flex flex-wrap items-center justify-start">
+                        <input
+                            type="email"
+                            class="w-full px-4 py-4 mr-4 leading-tight text-white bg-transparent border  md:w-1/3"
+                            placeholder="Enter your email here*"
+                        />
+                        <input
+                            type="submit"
+                            value="Subscribe"
+                            class="py-3 cursor-pointer btn-primary hover:bg-white hover:text-black"
+                        />
+                    </div>
+                </form>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-start">
+                <p class="mb-3 text-sm opacity-75 md:mb-0">&copy; Powered by Jahid Bhuiyan.</p>
+
+                <div class="flex items-center justify-start md:ml-4">
+                    <a href="#" class="mx-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-youtube"
+                        >
+                            <path
+                                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+                            ></path>
+                            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="mx-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-linkedin"
+                        >
+                            <path
+                                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                            ></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="mx-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-twitter"
+                        >
+                            <path
+                                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                            ></path>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="mx-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-instagram"
+                        >
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="mx-2">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-facebook"
+                        >
+                            <path
+                                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                            ></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <!-- ***********SCRIPTS************ -->
+        <script src="./dist/js/index.js"></script>
+    </body>
+</html>
