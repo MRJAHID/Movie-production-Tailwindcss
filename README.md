@@ -1,58 +1,86 @@
-# Tailwind CSS Playground
+<p align="center">
+  <a href="https://mrjahid.github.io/Movie-production-Tailwindcss">
+    <img src="hhttps://i.ibb.co/vqPt9V1/Screenshot-from-2023-04-01-12-51-57.png" alt="Project Name">
+  </a>
+  <h3 align="center">Movie Production With TailwindCss</h3>
 
-A simple starter project for playing around with Tailwind in a proper PostCSS environment.
+  <p align="center">
+   Movie Production is a Frontend Template. <br>
+   This is designed for web design practice.
+    <br>
+    </p>
+</p>
 
-To get started:
+<br>
 
-1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/tailwindcss/playground.git tailwindcss-playground
+## Table of contents
+- [About the Website](#about-the-website)
+- [Technical](#technical)
+- [To Do List](#to-do-list)
+- [Licence](#license)
+- [Versions](#versions)
+- [Contact Information](#contact-information)
 
-   cd tailwindcss-playground
-   ```
 
-2. Install the dependencies:
 
-   ```bash
-   # Using npm
-   npm install
+### About the website
 
-   # Using Yarn
-   yarn
-   ```
+ Movie Production is a Frontend design template.
 
-3. Start the development server:
+#### Hosted?
 
-   ```bash
-   # Using npm
-   npm run serve
+Yes! This template is hosted on live.
 
-   # Using Yarn
-   yarn serve
-   ```
+Link One : https://mrjahid.github.io/Movie-production-Tailwindcss  <br>
 
-   Now you should be able to see the project running at localhost:8080.
 
-4. Open `public/index.html` in your editor and start experimenting!
+### Technical
+#### Technology Used
+This project uses:
+  - Html
+  - Css
+  - TailwindCSS
+  - Javascript
 
-## Play with it on CodeSandbox
+#### Running the project
 
-A CodeSandbox version of this playground [is one click away](https://codesandbox.io/s/github/tailwindcss/playground/tree/master)!
+You can:
+    a. clone the project and compile it yourself (Most up to date)
+    
+    
+## Screenshots
 
-## Building for production
+![App Screenshot](https://i.ibb.co/vqPt9V1/Screenshot-from-2023-04-01-12-51-57.png)
+![App Screenshot](https://i.ibb.co/WF2WYcn/Screenshot-from-2023-04-01-12-52-13.png)
+![App Screenshot](https://i.ibb.co/5xMdLFr/Screenshot-from-2023-04-01-12-52-08.png)
 
-Even though this isn't necessarily a starter kit for a proper project, we've included an example of setting up [cssnano](https://cssnano.co/) to optimize your CSS for production.
 
-To build an optimized version of your CSS, simply run:
 
-```bash
-# Using npm
-npm run production
+#### CONTRIBUTING
 
-# Using Yarn
-yarn production
-```
+I would/ We'd love to have your help in making  **{this app (replace with name of your project)}** better. The project is still very incomplete, but if there's an issue you'd like to see addressed sooner rather than later, let me(/us) know. 
 
-After that's done, check out `./public/build/tailwind.css` to see the optimized output.
-# movie-production-tailwindcss.github.io
+<hr>
+
+
+## Authors
+
+- [@MRJAHID](https://www.github.com/mrjahid)
+
+
+### Versions
+* Version 1.0  DATE 19/01/2020
+
+
+
+### Contact Information
+
+If you have found any bugs, or have any feedback or questions and or want to post a feature request please use the [Issuetracker](https://github.com/mrjahid) to report them.
+
+<hr>
+
+<br>
+
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](https://github.com/mrjahid)
+
