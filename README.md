@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://mrjahid.github.io/Movie-production-Tailwindcss">
-    <img src="hhttps://i.ibb.co/vqPt9V1/Screenshot-from-2023-04-01-12-51-57.png" alt="Project Name">
+    <img src="https://i.ibb.co/vqPt9V1/Screenshot-from-2023-04-01-12-51-57.png" alt="Project Name">
   </a>
   <h3 align="center">Movie Production With TailwindCss</h3>
 
