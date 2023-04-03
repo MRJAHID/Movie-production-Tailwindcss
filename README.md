@@ -1,12 +1,11 @@
 <p align="center">
-  <a href="https://mrjahid.github.io/Movie-production-Tailwindcss">
-    <img src="https://i.ibb.co/vqPt9V1/Screenshot-from-2023-04-01-12-51-57.png" alt="Project Name">
+  <a href="https://mrjahid.github.io/Mapty-app-with-JS/">
+    <img src="https://i.ibb.co/0jGd3jG/Screenshot-from-2023-04-03-21-39-58.png" alt="Project Name">
   </a>
-  <h3 align="center">Movie Production With TailwindCss</h3>
+  <h3 align="center">Mapty With Javascript</h3>
 
   <p align="center">
-   Movie Production is a Frontend Template. <br>
-   This is designed for web design practice.
+   Mapty is a workout  tracking app on a map. <br>
     <br>
     </p>
 </p>
@@ -17,7 +16,6 @@
 ## Table of contents
 - [About the Website](#about-the-website)
 - [Technical](#technical)
-- [To Do List](#to-do-list)
 - [Licence](#license)
 - [Versions](#versions)
 - [Contact Information](#contact-information)
@@ -26,13 +24,14 @@
 
 ### About the website
 
- Movie Production is a Frontend design template.
+ Users can add their workout locations, whether they were running or cycling, and add additional information about their workout.
+Mapty utilizes the Leaflet JavaScript library to display maps, and stores the data in the local storage of the user. 
 
 #### Hosted?
 
-Yes! This template is hosted on live.
+Yes! This site hosted on live.
 
-Link One : https://mrjahid.github.io/Movie-production-Tailwindcss  <br>
+Link One : https://mrjahid.github.io/Mapty-app-with-JS/  <br>
 
 
 ### Technical
@@ -40,7 +39,6 @@ Link One : https://mrjahid.github.io/Movie-production-Tailwindcss  <br>
 This project uses:
   - Html
   - Css
-  - TailwindCSS
   - Javascript
 
 #### Running the project
@@ -51,9 +49,8 @@ You can:
     
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co/vqPt9V1/Screenshot-from-2023-04-01-12-51-57.png)
-![App Screenshot](https://i.ibb.co/WF2WYcn/Screenshot-from-2023-04-01-12-52-13.png)
-![App Screenshot](https://i.ibb.co/5xMdLFr/Screenshot-from-2023-04-01-12-52-08.png)
+![App Screenshot](https://i.ibb.co/0jGd3jG/Screenshot-from-2023-04-03-21-39-58.png)
+![App Screenshot](https://i.ibb.co/0jGd3jG/Screenshot-from-2023-04-03-21-39-58.png)
 
 
 
@@ -70,7 +67,7 @@ I would/ We'd love to have your help in making  **{this app (replace with name o
 
 
 ### Versions
-* Version 1.0  DATE 19/01/2020
+* Version 1.0 
 
 
 
